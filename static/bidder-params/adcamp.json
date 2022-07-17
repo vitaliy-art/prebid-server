@@ -1,0 +1,18 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "title": "Adcamp Adapter Params",
+    "description": "A schema with validates params accepted by the Adcamp adapter",
+    "type": "object",
+
+    "properties": {
+        "token": {
+            "type": "string",
+            "description": "Adapter token",
+            "minLength": 1
+        }
+    },
+
+    "required": [
+        "token"
+    ]
+}

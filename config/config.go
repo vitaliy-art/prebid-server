@@ -914,6 +914,8 @@ func SetupViper(v *viper.Viper, filename string) {
 	v.SetDefault("adapters.aax.extra_info", "https://aax.golang.pbs.com")
 	v.SetDefault("adapters.aceex.endpoint", "http://bl-us.aceex.io/?uqhash={{.AccountID}}")
 	v.SetDefault("adapters.acuityads.endpoint", "http://{{.Host}}.admanmedia.com/bid?token={{.AccountID}}")
+	v.SetDefault("adapters.adcamp.endpoint", "http://localhost:8001")
+	v.SetDefault("adapters.adcamp.extra_info", `{"token":"default_token"`)
 	v.SetDefault("adapters.adf.endpoint", "https://adx.adform.net/adx/openrtb")
 	v.SetDefault("adapters.adform.endpoint", "https://adx.adform.net/adx/openrtb")
 	v.SetDefault("adapters.adgeneration.endpoint", "https://d.socdm.com/adsv/v1")

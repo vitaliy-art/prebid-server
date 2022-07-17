@@ -1,0 +1,7 @@
+maintainer:
+  email: help@adcamp.com
+capabilities:
+  site:
+    mediaTypes:
+      - banner
+      
