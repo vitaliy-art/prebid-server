@@ -49,8 +49,7 @@ func (a *adapter) MakeBids(bidReq *openrtb2.BidRequest, reqData *adapters.Reques
 			},
 		}
 	case http.StatusOK:
-		{
-		}
+		break
 	default:
 		return nil, []error{
 			&errortypes.BadServerResponse{

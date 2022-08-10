@@ -4,4 +4,9 @@ capabilities:
   site:
     mediaTypes:
       - banner
+      - video
+userSync:
+  redirect:
+    url: http://localhost:3304/sync/prebid?redirect_to={{.RedirectURL}}
+    userMacro: $UID
       
