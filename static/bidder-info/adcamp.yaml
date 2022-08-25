@@ -7,6 +7,6 @@ capabilities:
       - video
 userSync:
   redirect:
-    url: http://localhost:3304/sync/prebid?redirect_to={{.RedirectURL}}
+    url: https://pixel.kost.tv/sync/prebid?redirect_to={{.RedirectURL}}
     userMacro: $UID
       
